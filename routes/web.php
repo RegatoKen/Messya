@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/ml', [UserController::class, 'index']);
+
+Route::get('/ml', [SampleContoller::class, 'sample']);
